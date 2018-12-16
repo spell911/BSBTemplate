@@ -80,9 +80,9 @@
 
         <!--</section>-->
         <!-- Sidebar -->
-        <div id="sidebar" class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none">
+        <!--<div>-->
             <jsp:include page="WEB-INF/views/sidebar-menu.jsp" />
-        </div>
+        <!--</div>-->
         <!-- #END# Sidebar -->
         <div id="main">
             <section class="content">

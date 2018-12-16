@@ -4,7 +4,7 @@
     Author     : Phich.bur
 --%>
 
-<aside class="sidebar">
+<aside id="sidebar" class="sidebar w3-bar-block w3-card w3-animate-left" style="display:none">
     <!-- User Info -->
     <div class="user-info">
         <div class="image">
