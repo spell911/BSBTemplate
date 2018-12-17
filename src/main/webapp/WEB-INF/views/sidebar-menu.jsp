@@ -4,7 +4,7 @@
     Author     : Phich.bur
 --%>
 
-<aside id="sidebar" class="sidebar w3-bar-block w3-card w3-animate-left" style="display:none">
+<aside id="sidebar" class="sidebar w3-animate-left" style="display:none">
     <!-- User Info -->
     <div class="user-info">
         <div class="image">
@@ -33,7 +33,7 @@
         <ul class="list">
             <li class="header">MAIN NAVIGATION</li>
             <li class="active">
-                <a href="index.html">
+                <a href="home.jsp">
                     <i class="material-icons">home</i>
                     <span>Home</span>
                 </a>
@@ -45,13 +45,13 @@
                 </a>
                 <ul class="ml-menu">
                     <li>
-                        <a href="#">Page 1</a>
+                        <a href="page1.jsp">Page 1</a>
                     </li>
                     <li>
-                        <a href="#">Page 2</a>
+                        <a href="page2.jsp">Page 2</a>
                     </li>
                     <li>
-                        <a href="#">Page 3</a>
+                        <a href="page3.jsp">Page 3</a>
                     </li>
                 </ul>
             </li>

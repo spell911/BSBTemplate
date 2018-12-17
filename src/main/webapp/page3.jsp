@@ -1,6 +1,6 @@
 <%-- 
-    Document   : home
-    Created on : Dec 15, 2018, 3:33:45 AM
+    Document   : page1
+    Created on : Dec 15, 2018, 9:51:30 AM
     Author     : Phich.bur
 --%>
 
@@ -11,7 +11,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-        <title>BSB Template</title>
+        <title>Jquery DataTable | Bootstrap Based Admin Template - Material Design</title>
         <!-- Favicon-->
         <link rel="icon" href="web_component/favicon.ico" type="image/x-icon">
 
@@ -75,15 +75,18 @@
         <!-- Top Bar -->
         <jsp:include page="WEB-INF/views/navbar-menu.jsp" />
         <!-- #Top Bar -->
+        <!--<section>-->
+
+        <!--</section>-->
         <!-- Sidebar -->
-        <section>
-            <jsp:include page="WEB-INF/views/sidebar-menu.jsp" />
-        </section>
+        <!--<div>-->
+        <jsp:include page="WEB-INF/views/sidebar-menu.jsp" />
+        <!--</div>-->
         <!-- #END# Sidebar -->
         <section class="content">
             <div id="main" class="container-fluid">
                 <div class="block-header">
-                    <h2>HOME</h2>
+                    <h2>PAGE 3</h2>
                 </div>
                 <!-- Widgets -->
                 <div class="row clearfix">
@@ -122,7 +125,9 @@
         <script src="web_component/plugins/jquery-datatable/extensions/export/vfs_fonts.js"></script>
         <script src="web_component/plugins/jquery-datatable/extensions/export/buttons.html5.min.js"></script>
         <script src="web_component/plugins/jquery-datatable/extensions/export/buttons.print.min.js"></script>
-
+        <script src="web_component/plugins/jquery-datatable/extensions/fixedColumns/js/dataTables.fixedColumns.min.js"></script>
+        <!-- Popper.JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
         <!-- Custom Js -->
         <script src="web_component/js/admin.js"></script>
         <script src="web_component/js/pages/tables/jquery-datatable.js"></script>
@@ -135,4 +140,3 @@
     </body>
 
 </html>
-
